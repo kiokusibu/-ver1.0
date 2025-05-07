@@ -1,0 +1,21 @@
+﻿@charset "utf-8";
+
+body {
+	margin: 0;
+	padding: 0;
+	background-repeat: repeat-x;
+	background-color: #000000;
+	color: #dcd28f;
+	font-family: serif;
+	font-size: 110%;
+	line-height: 1.5em;
+}
+p {
+	margin: 0 0 20px 0;
+}
+img {
+	border: 0;
+}
+a,a:hover,a:visited{
+    color: inherit;
+}
