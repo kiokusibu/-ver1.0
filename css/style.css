@@ -1,0 +1,273 @@
+﻿@charset "utf-8";
+
+/* 基本レイアウト ここから↓ */
+@import url(common.css);
+header {
+	width: 500px;
+	height: 50px;
+	margin: 40px auto 40px auto;
+	position: relative;
+	border: solid;
+}
+header h1 {
+	margin-top: 15px;
+	text-align: center;
+}
+footer p {
+	padding: 14px 200px 14px 0px;
+	margin: 410px 0px 0px 0px;
+	text-align: right;
+}
+footer small {
+	font-size: 200%;
+}
+
+#contents{
+	width: 1200px;
+	height:auto;
+	margin: 25px 200px 0px 0px;
+	padding: 40px 40px 40px 40px;
+	font-size: 100%;
+	float: right;
+	border: solid;
+}
+
+#contents img{
+	padding-bottom: 500px;
+	}
+
+#contents h1{
+	text-align: center;
+	font-size: 300%;
+	margin: 0px 0px 30px 200px;
+}
+
+#contents h2{
+	margin: 50px 0px 30px 200px;
+	font-size: 200%;
+	text-align: center;
+}
+
+#mainnav {
+	padding: 20px 0px 0px 0px;
+	text-align: center;
+	list-style: none;
+}
+
+#mainnav li{
+	font-size: 150%;
+	display: inline-block;
+  	list-style: none;
+  	margin: 0px 10px 0px 20px;
+	font-weight:bold;
+}
+
+#main p {		
+	text-align: center;
+	overflow: hidden;
+	zoom: 1;
+}
+@media screen and (min-width: 1024px) {
+.sp{
+	display: none;
+	}
+	
+}
+
+@media screen and (max-width: 480px) and (max-width: 1023px) {
+
+.pc{
+	display: none;
+}
+
+}
+
+#main h1 {
+	margin: 0px 0px 25px 520px;
+	font-size: 200%;
+	float: center;
+}
+
+#main h2 {
+	text-align: center;
+}
+
+#main span{
+	color: rgb(255, 0, 0);
+}
+
+	
+#nav {
+	width: 355px;
+	margin: 20px 23px 0px 15px;
+	padding: 20px 15px 15px 15px;
+	border: solid;
+	overflow: auto;	
+}
+
+#Geminiano {
+	width: 150px;
+	height: 200px;
+	margin: 0px 0px 60px 0px;
+	border: solid;
+	float: left;
+}
+
+#Geminiano h1 {
+	width: 150px;
+	font-size: 120%;
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+}
+
+#Eliza {
+	width: 150px;
+	height: 200px;
+	margin: 0px 0px 60px 0px;
+	border: solid;
+	float: right;
+}
+
+#Eliza h2 {
+	width: 150px;
+	font-size: 120%;
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+}
+
+#Johnson {
+	width: 150px;
+	height: 200px;
+	margin: 0px 0px 60px 0px;
+	border: solid;
+	float: left;
+}
+
+#Johnson h3 {
+	width: 150px;
+	font-size: 120%;
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+}
+
+#Wakalimasittang {
+	width: 150px;
+	height: 200px;
+	margin: 0px 0px 60px 0px;
+	border: solid;
+	float: right;
+}
+
+#Wakalimasittang h4 {
+	width: 150px;
+	font-size: 120%;
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+}
+
+#Julian {
+	width: 150px;
+	height: 200px;
+	margin: 0px 0px 60px 0px;
+	border: solid;
+	float: left;
+}
+
+#Julian h5 {
+	width: 150px;
+	font-size: 120%;
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+}
+
+#Louis {
+	width: 150px;
+	height: 200px;
+	margin: 0px 0px 0px 0px;
+	border: solid;
+	float: right;
+}
+
+#Louis h6 {
+	width: 150px;
+	font-size: 120%;
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+}
+
+
+/* 基本レイアウト ここまで↑ */
+
+/* ホームレイアウト↓ */
+
+#home {
+	width: 40%;
+	height: auto;
+	margin: 25px 15% 25px 30%;
+	font-size: 100%;
+	border: solid;
+}
+
+#images_1 {
+	display: flex;
+    justify-content: space-around;
+    align-items: left;
+    text-align: center;
+    font-size: 200%;
+    margin: 20px;
+}
+
+#Gemini p{
+	font-size: 65%;
+	margin-top: 20px
+}
+
+#Elichan p{
+	font-size: 65%;
+	margin-top: 20px
+}
+
+#Johnsonkun p{
+	font-size: 65%;
+	margin-top: 20px
+}
+
+#images_2 {
+	display: flex;
+    justify-content: space-around;
+    align-items: left;
+    text-align: center;
+    font-size: 200%;
+    margin: 20px;
+}
+
+#wakachan p{
+	font-size: 65%;
+	margin-top: 20px
+}
+
+#korochan p{
+	font-size: 65%;
+	margin-top: 20px
+}
+
+#ruisukun p{
+	font-size: 65%;
+	margin-top: 20px
+}
+
+#images_1 img {
+	width: 150px;
+	height: 200px;
+	border: solid;
+}
+
+#images_2 img {
+	width: 150px;
+	height: 200px;
+	border: solid;
+}
+
+#footermodoki{
+	text-align: center;
+}i
